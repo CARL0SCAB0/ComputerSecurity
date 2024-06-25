@@ -27,9 +27,10 @@ Execution:
 1. Open a terminal and navigate to the directory where the `arp_spoof.py` script is located.
 2. Run the script using Python 3 with administrator privileges:
 
-    sudo python3 arp_spoof.py
-
-3. You will be asked to enter the IP of the victim machine and the IP of the router.
+```bash
+sudo python3 arp_spoof.py 
+```
+4. You will be asked to enter the IP of the victim machine and the IP of the router.
 	If you do not know the IP of the router you can execute the command:
 		ip route | grep default
 
@@ -46,7 +47,7 @@ Execution:
 
 		nmap will give you a list of active devices on the network along with their IP and MAC addresses. From that list we will select our victim
 		
-4. The script will initiate the ARP Spoofing attack and display detailed information during execution.
+5. The script will initiate the ARP Spoofing attack and display detailed information during execution.
 
 Example of use:
 
