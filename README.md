@@ -31,21 +31,27 @@ Execution:
 sudo python3 arp_spoof.py 
 ```
 4. You will be asked to enter the IP of the victim machine and the IP of the router.
-	If you do not know the IP of the router you can execute the command:
-		ip route | grep default
+If you do not know the IP of the router you can execute the command:
+```bash
+ip route | grep default
+```
 
-		The output should look like:
-		default via 192.168.1.1 dev wlan0 proto dhcp metric 600
+The output should look like:
+```bash
+default via 192.168.1.1 dev wlan0 proto dhcp metric 600
+```
 
-		The IP that appears after default via is the IP of your router.
+The IP that appears after default via is the IP of your router.
 
-		For the victim machine we will use nmap, we install it with the following command:
-		sudo apt-get install nmap
-
-		And we execute it in the following way
-		sudo map -sn "IP_ROUTER"/24
-
-		nmap will give you a list of active devices on the network along with their IP and MAC addresses. From that list we will select our victim
+For the victim machine we will use nmap, we install it with the following command:
+```bash
+sudo apt-get install nmap
+```
+And we execute it in the following way
+```bash
+sudo map -sn "IP_ROUTER"/24  # Replace ROUTER_IP with your router's IP
+```
+nmap will give you a list of active devices on the network along with their IP and MAC addresses. From that list we will select our victim
 		
 5. The script will initiate the ARP Spoofing attack and display detailed information during execution.
 
