@@ -1,7 +1,7 @@
 DIAZ SOTO CARLOS ANTONIO 6CV2
 COMPUTER SECURITY
 ==================================
-ARP Spoofing y Detección con Scapy 
+ARP Spoofing and Detección with Scapy 
 ==================================
 
 This repository contains two Python scripts that allow you to perform and detect ARP Spoofing attacks on a local network using Scapy.
