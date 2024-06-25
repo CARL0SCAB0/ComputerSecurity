@@ -49,7 +49,7 @@ sudo apt-get install nmap
 ```
 And we execute it in the following way
 ```bash
-sudo map -sn "IP_ROUTER"/24  # Replace ROUTER_IP with your router's IP
+sudo map -sn "ROUTER_IP"/24  # Replace ROUTER_IP with your router's IP
 ```
 nmap will give you a list of active devices on the network along with their IP and MAC addresses. From that list we will select our victim
 		
