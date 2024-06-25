@@ -71,9 +71,9 @@ This script detects possible ARP Spoofing attacks on the network.
 Execution:
 1. Open another terminal and navigate to the directory where the `detect_arp_spoof.py` script is located.
 2. Run the script using Python 3 with administrator privileges:
-
+```bash
     sudo python3 detect_arp_spoof.py
-
+```
 3. You will be asked to enter the router's IP.
 4. The script will start monitoring the network for suspicious ARP packets and display alerts if it detects a possible ARP Spoofing attack.
 
