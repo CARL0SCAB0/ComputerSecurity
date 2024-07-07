@@ -11,11 +11,19 @@ Requirements
 - Python 3
 - Scapy
 
-Installing Scapy
---------------------
-If you don't already have Scapy installed, you can do so using the following command:
+## Installation
 
-    pip install scapy
+**Clone the repository:**
+
+   ```bash
+   git clone <your_repository_URL>
+   cd <project_directory_name>
+   ```
+**Install the dependencies:**
+
+```bash
+pip install -r requirements.txt
+   ```
 
 Script Execution
 -------------------------
